@@ -29,3 +29,17 @@ Por contra, la electrónica analógica una un rango continuo de valores, como pu
 En las tecnologías actuales se trabaja especialmente bien cuando trabajamos con dos valores de tensión. A estos valores dependiendo del ámbito se les denomina _verdadero_ y _falso_ o _0 y 1 lógicos_
 
 Toda información que debe procesar un computador de este tipo debe por tanto estar codificada usando los dos valores de tensión posible, 0 y 1 lógicos.
+
+#### 1.2.2 La codificación de la información
+
+En la realidad, toda la información siempre está codificada de una forma u otra. Al escribir usamos un número concreto de símbolos. Cuando hablamos de números usamos dígitos, que son otro conjunto de símbolos. Los computadores digitales usan dos dígitos: 0 y 1.
+
+Codificar números es fácil de comprender: un valor numérico es un concepto abstracto que tiene una representación u otra según se use un sistema de numeración u otro (decimal o binario por ejemplo)
+
+Al principio el hombre representaba números con dibujos de las cantidades que quería representar. Posteriormente se usaron sistemas basados en los elementos que el hombre tenía a disposición: 5 dedos de una mano, 10 dedos de las dos manos, 12 huesos de los dedos opuestos al pulgar...
+
+Finalmente salió ganadora la base 10.
+
+Con los ordenadores pasó algo similar. Finalmente se ha usado un sistema basado en su propia anatomía: con tensión y sin tensión. Por esto debemos usar un sistema de base 2.
+
+Esto hace que, aunque las operaciones aritméticas no sean diferentes, si lo son los procesos sobre cómo proceder a realizarlas.
