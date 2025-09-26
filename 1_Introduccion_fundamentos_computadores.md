@@ -21,3 +21,11 @@ Los computadores se basan en la _electrónica digital_.
 Debemos además saber cómo podemos usar la electrónica digital para poder construir un computador digital. Tener una metodología para poder concebir sistemas digitales complejos que nos permitan obtener un computador convencional.
 
 #### 1.2.1 ¿Qué es la electrónica digital?
+
+Es la electrónica basada en señales eléctricas dentro de un conjunto finito o discreto de de valores diferentes. Lo habitual es usar dos valores, por ejemplo 0 V y 5 V.
+
+Por contra, la electrónica analógica una un rango continuo de valores, como puede ser cualquier valor del 0 a 15 V.
+
+En las tecnologías actuales se trabaja especialmente bien cuando trabajamos con dos valores de tensión. A estos valores dependiendo del ámbito se les denomina _verdadero_ y _falso_ o _0 y 1 lógicos_
+
+Toda información que debe procesar un computador de este tipo debe por tanto estar codificada usando los dos valores de tensión posible, 0 y 1 lógicos.
