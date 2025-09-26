@@ -43,3 +43,12 @@ Finalmente salió ganadora la base 10.
 Con los ordenadores pasó algo similar. Finalmente se ha usado un sistema basado en su propia anatomía: con tensión y sin tensión. Por esto debemos usar un sistema de base 2.
 
 Esto hace que, aunque las operaciones aritméticas no sean diferentes, si lo son los procesos sobre cómo proceder a realizarlas.
+
+#### 1.2.3 Los sistemas digitales
+
+La electrónica digital es conceptualmente la electrónica de los números. Las señales eléctricas representan números.
+La electrónica analógia, por contra, funciona con ondas, que son más susceptibles de degradarse y perder parte de la información.
+
+Intentar entender o construir un circuito digital complejo es inviable sin las herramientas y métodos adecuados para sistematizar dicha construcción.
+
+Tenemos una diferenciación importante entre los **circuitos combinacionales** (sin capacidad de memoria) y los **circuitos secuenciales** (con capacidad de memoria) que veremos por separado en sus diferentes módulos.
