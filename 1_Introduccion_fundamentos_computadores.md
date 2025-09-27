@@ -89,3 +89,14 @@ Marcada por la aparición de los primeros circuitos integrados. Los circuitos in
 - IBM 360 (1964): Inició la primera serie de **computadores compatibles**: Podían usar el mismo software y los mismos periféricos.
 - DEC PDP/8 (1965): Primer minicomputador con éxito comercial. Introdujo los **circuitos lógicos en módulos integrados** o **(chips)** y el conjunto de líneas en paralelo para interconectar módulos: **el bus**
 - IMB 360/85 (1968): Primer computador en incorporar el concepto de **memoria caché**, como técnica que redujo enormemente el tiempo de acceso a la memoria y que es un concepto central en los sistemas actuales.
+
+### 2.4 Cuarta generación (1970 - )
+
+Con la mejora del proceso de fabricación de los circuitos integrados se produce un aumento considerable de la densidad de integración. Este aumento permite la integración de todos los circuitos de la unidad central en un único chip: **el microprocesador**, siendo el primero el **Intel 4004** en 1971.
+
+Al mismo tiempo se van abandonando las memorias de ferritas en favor de las memorias de semiconductores. Estos cambios permitieron la aparición de los primeros ordenadores personales:
+
+- Altair 8800 (1975): Considerado el primer ordenador personal.
+- Supercomputador Cray I (1976): Incorpora por primera vez el procesamiento paralelo.
+- IMB PC (1981): Con el microprocesador 8086 y el sistema operativo Microsoft DOS, marcan el inicio de la revolución de la computación personal.
+- Lisa (APPLE, 1983): Incorpora el ratón y una interfaz de usuario gráfica (Estilo Windows)
