@@ -73,7 +73,7 @@ Marcada por el uso de válvulas de vacío y anillos de ferrita para la memoria.
 - EDVAC (1952) Moore School: _Electronic Discrete Automatic Computer_: Sobre la que **Von Neumann** escribió el _First Draw of a Report on the EDVAC_, el primero documento donde se describe el concepto de **programa almacenado** y el uso de la **aritmética binaria** en detrimento de la decimal.
 - UNIVAC (Mauchly y Ecker - 1951) Ecker-Mauchly Company: _Universal Automatic Computer_ con la característica de contener un **programa parcialmente almacenado**
 
-### 2.2 Segunda generación (1955 - 1965)
+### 2.2 Segunda generación 1955 - 1965
 
 El paso a la segunda generación está marcado por el uso de transistores en vez de válvulas de vacío. Las principales máquinas de esta generación son:
 
@@ -118,3 +118,20 @@ Los dispositivos de entrada y los de salida son elementos de conversión entre e
 El procesador consta de una unidad central de procesamiento o **CPU** y una **memoria** íntimamente relacionada con la CPU.
 
 La CPU es la encargada de procesar los datos de acuerdo con el programa establecido. La CPU a su vez consta de dos partes: Una **unidad de control** y una **unidad de proceso**. En la unidad de proceso se encuentran los recursos de cálculo, mientras que la unidad de control es la encargada de que las operaciones se realicen en el orden correcto.
+
+### 3.1 Arquitectura de Von Neumann
+
+Se conoce por este nombre a la arquitectura que implementan los ordenadores actuales, que fue descrita por John Von Neumann durante su colavoración en el proyecto de desarrollo del EDVAC (ver [epígrafe 2.2](#22-segunda-generación-1955---1965)).
+
+Se diferencia porque tanto los datos como el programa se almacenan en la memoria principal, que además está ligada directamente con la CPU.
+
+La idea de un programa almacenado rompía con la práctica anterior que modificaba el circuito electrónico cuando se modificaba el programa.
+
+Por tanto, las características principales de la arquitectura son:
+
+1. Programa almacenado: Tanto los datos como las instrucciones en la memoria principal. Esto implicó que el computador pudiera tener amplia generalidad y también que la comunicación entre unidad de procesamiento y memoria fuese crítica para el rendimiento de la máquina.
+2. Unidad de control simple: La unidad de control no se tiene que ocupar de ejecutar todo el programa, sino de hace iterativamente una única tarea: el ciclo de ejecución de instrucciones.
+
+<img src="./img/img2.png"></img>
+
+### 3.2 Arquitectura Harvard
