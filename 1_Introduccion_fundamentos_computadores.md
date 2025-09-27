@@ -100,3 +100,21 @@ Al mismo tiempo se van abandonando las memorias de ferritas en favor de las memo
 - Supercomputador Cray I (1976): Incorpora por primera vez el procesamiento paralelo.
 - IMB PC (1981): Con el microprocesador 8086 y el sistema operativo Microsoft DOS, marcan el inicio de la revolución de la computación personal.
 - Lisa (APPLE, 1983): Incorpora el ratón y una interfaz de usuario gráfica (Estilo Windows)
+
+## 3. ¿Cómo son los computadores digitales actuales?
+
+| Un **computador** es un dispositivo construido con el propósito de manipular y transformar información para conseguir una información más elaborada, como el resultado de un problema determinado.
+
+Un computador digital es un computador que trabaja con datos numéricos, cuya interpretación depende del formato con el que esté trabajando, codificados todos ellos en un sistema numérico en base 2, es decir, basados en señales binarias, sobre las que podemos identificar sólo dos valores distintos.
+
+Mientras que el concepto de computador es independiente de la tecnología, en la actualidad los computadore digitales están basados en la electrónica digital, por lo que un computador digital actual es un sistema digital electrónico complejo.
+
+Su complejidad hace inviable ser concebido si una estructura y organización en módulos diferenciados con tareas y funcionalidades bien definidas. La estructura general de un computador digital es la que podemos ver en la figura 1:
+
+<img src="./img/img1.png"></img>
+
+Los dispositivos de entrada y los de salida son elementos de conversión entre el mundo analógico que nos rodea y el mundo digital con el que trabaja el procesador. Los dispositivos entrada/salida son dispositivos principalmente para almacenar y recuperar datos almacenados.
+
+El procesador consta de una unidad central de procesamiento o **CPU** y una **memoria** íntimamente relacionada con la CPU.
+
+La CPU es la encargada de procesar los datos de acuerdo con el programa establecido. La CPU a su vez consta de dos partes: Una **unidad de control** y una **unidad de proceso**. En la unidad de proceso se encuentran los recursos de cálculo, mientras que la unidad de control es la encargada de que las operaciones se realicen en el orden correcto.
