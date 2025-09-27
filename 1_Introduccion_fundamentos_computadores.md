@@ -81,3 +81,11 @@ El paso a la segunda generación está marcado por el uso de transistores en vez
 - IBM 7030 (1961). Incorporó la idea de **segmentación de memoria** y **memoria virtual**, como técnias que mejoraron la capacidad, gestión y rendimiento de la memoria.
 - ATLAS (1962) de Ferranti Ltd y U. Manchester. El primer **Supercomputador**. Destaca por la incorporación de **interrupciones** para controlar los periféricos.
 - CDC 6600 (1964) ALcanzó la velocidad de cálculo de 1 megaFLOPS (1 millon de operaciones de coma flotante por segundo) usaba de forma paralela diferentes unidades de cálculo.
+
+### 2.3 Tercera generación (1965 - 1970)
+
+Marcada por la aparición de los primeros circuitos integrados. Los circuitos integrados aportan una reducción significativa de espacio y consumo además de añadir fiabilidad. Estos avances favorecen la aparición de los primeros minicomputadores.
+
+- IBM 360 (1964): Inició la primera serie de **computadores compatibles**: Podían usar el mismo software y los mismos periféricos.
+- DEC PDP/8 (1965): Primer minicomputador con éxito comercial. Introdujo los **circuitos lógicos en módulos integrados** o **(chips)** y el conjunto de líneas en paralelo para interconectar módulos: **el bus**
+- IMB 360/85 (1968): Primer computador en incorporar el concepto de **memoria caché**, como técnica que redujo enormemente el tiempo de acceso a la memoria y que es un concepto central en los sistemas actuales.
