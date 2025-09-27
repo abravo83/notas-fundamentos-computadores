@@ -135,3 +135,13 @@ Por tanto, las características principales de la arquitectura son:
 <img src="./img/img2.png"></img>
 
 ### 3.2 Arquitectura Harvard
+
+La arquitectura Von Neumann tiene dos grandes limitaciones: El acceso a memoria es crítico y limita el rendimiento del sistema y el diseño implica una ejecución secuencial.
+
+De las arquitecturas "no Von Neumann" cabe destacar la **arquitectura Harvard**. Se caracteriza porque dispone de una memoria dedicada al programa y otra dedicada a los datos. Esto corrije la limitación que supone el acceso a la memoria al poder acceder a la memoria de datos mientras que se accede a la memoria del programa. Además limita la automodificación de los programas, que en un principio se consideraba una ventaja, pero que ha llegado a convertirse en un problema.
+
+El uso de esta arquitectura se ha extendido en los microcontroladores y la electrónica distribuida.
+
+<img src="./img/img3png.png"></img>
+
+**_FIN DEL TEMA_**
