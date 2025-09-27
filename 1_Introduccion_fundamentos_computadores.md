@@ -72,3 +72,12 @@ Marcada por el uso de válvulas de vacío y anillos de ferrita para la memoria.
 - ENIAC (Mauchly y Eckert - 1941-1945) Moore School: _Electronic Numerical Integrator And Computer_ 18000 válvulas de vacío, 70000 resistencias y 10000 condensadores. Ocupaba 100 m2, pesaba 30 tn y consumía 140 kw/h
 - EDVAC (1952) Moore School: _Electronic Discrete Automatic Computer_: Sobre la que **Von Neumann** escribió el _First Draw of a Report on the EDVAC_, el primero documento donde se describe el concepto de **programa almacenado** y el uso de la **aritmética binaria** en detrimento de la decimal.
 - UNIVAC (Mauchly y Ecker - 1951) Ecker-Mauchly Company: _Universal Automatic Computer_ con la característica de contener un **programa parcialmente almacenado**
+
+### 2.2 Segunda generación (1955 - 1965)
+
+El paso a la segunda generación está marcado por el uso de transistores en vez de válvulas de vacío. Las principales máquinas de esta generación son:
+
+- PDP-1 de DEC (1960), que presenta por primera vez un **terminal gráfico**. Esta máquina además fue la primera sobre la que se ejecutó el primer videojuego.
+- IBM 7030 (1961). Incorporó la idea de **segmentación de memoria** y **memoria virtual**, como técnias que mejoraron la capacidad, gestión y rendimiento de la memoria.
+- ATLAS (1962) de Ferranti Ltd y U. Manchester. El primer **Supercomputador**. Destaca por la incorporación de **interrupciones** para controlar los periféricos.
+- CDC 6600 (1964) ALcanzó la velocidad de cálculo de 1 megaFLOPS (1 millon de operaciones de coma flotante por segundo) usaba de forma paralela diferentes unidades de cálculo.
