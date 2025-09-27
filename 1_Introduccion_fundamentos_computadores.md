@@ -142,6 +142,6 @@ De las arquitecturas "no Von Neumann" cabe destacar la **arquitectura Harvard**.
 
 El uso de esta arquitectura se ha extendido en los microcontroladores y la electrónica distribuida.
 
-<img src="./img/img3png.png"></img>
+<img src="./img/img3.png"></img>
 
 **_FIN DEL TEMA_**
