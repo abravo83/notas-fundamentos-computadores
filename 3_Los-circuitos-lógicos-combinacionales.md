@@ -64,3 +64,15 @@ Si ahora imaginamos otro circuito que contenga dos señales de entrada (a los qu
 
 Por tanto, tenemos disponibles 4 + 16 dispositivos electrónicos con una o dos entradas, pero, en la práctica sólo se contruyen 3, porque los demás se pueden derivar de esos tres: $f_{2}$, $g_{1}$ y $g_{7}$
 
+Ya estamos viendo que: 
+> hay una correspondencia entre los elementos de un circuito lógico y la lógica intuitiva. Es por esta razón por lo que denominamos a estos circuitos como "circuitos lógicos".
+
+Podemos decir que si tenemos dos frases (las señales de entrada): "Juan estudia química", "María estudia filosofía", podemos construir las siguiente frases:
+
+Juan estudia química **y** María estudia filosofía.
+Juan estudia química **o** María estudia filosofía.
+Juan **no** estudia química.
+
+La primera sólo es verdadera si ambas frases de entrada son verdaderas.
+La segunda es verdadera sólo si una de las dos es verdadera pero no ambas.
+La tercera es verdadera si su frase de entrada es falsa.
