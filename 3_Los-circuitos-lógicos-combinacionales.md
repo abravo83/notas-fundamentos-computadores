@@ -82,12 +82,42 @@ Juan estudia química **o** María estudia filosofía.
 Juan **no** estudia química.
 
 La primera sólo es verdadera si ambas frases de entrada son verdaderas.
-La segunda es verdadera sólo si una de las dos es verdadera pero no ambas.
+La segunda es verdadera si cualquiera de las dos es verdadera (o ambas).
 La tercera es verdadera si su frase de entrada es falsa.
 
 Por eso a la función $g_{1}$ se le denomina AND, a $g_{7}$ OR y a $f_{2}$ NOT.
 
-Entonces, los circuitos lógicos se contruyen a partir de los mimos fundamentos de la lógica y, por tanto, vamos a estudiarlos.
+Entonces, los circuitos lógicos se contruyen a partir de los mismos fundamentos de la lógica y, por tanto, vamos a estudiarlos.
 
 **1.2 Álgebra de Boole**
+
+> Es una entidad matemática formada por un conjunto que contien dos elementos (verdadero y falso), operaciones básicas sobre estos elementos y una lista de axiomas que definen las propiedades que cumplen las operaciones.
+
+Las operaciones booleanas lógicas son:
+
+> La **negación o complementación o NOT**: Se corresponde con la partícula *no* y se representa con una comilla tras una variable o conjunto de ellas. Con $x'$ representamos la negación de $x$, y lo leemos como "no $x$".
+
+| x   | x'  |
+| :-: | :-: |
+| 0   | 1   |
+| 1   | 0   |
+
+> El **producto lógico o AND**, se corresponde con la conjunción (*y*) y se representa con el símbolo $\cdot$.
+
+| x , y | x $\cdot$ y |
+| :-:   | :---------: |
+| 0 , 0 | 0           |
+| 0 , 1 | 0           |
+| 1 , 0 | 0           |
+| 1 , 1 | 1           |
+
+> La **suma lógica u OR**, que corresponde a la conjunción *o* y se representa con el símbolo (+). La expresión "x + y" denota *la suma lógica* de las variables x e y, y se lee "x o y".
+
+
+| x , y | x + y       |
+| :-:   | :---------: |
+| 0 , 0 | 0           |
+| 0 , 1 | 1           |
+| 1 , 0 | 1           |
+| 1 , 1 | 1           |
 
