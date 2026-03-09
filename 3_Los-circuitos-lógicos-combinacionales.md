@@ -121,3 +121,71 @@ Las operaciones booleanas lógicas son:
 | 1 , 0 | 1           |
 | 1 , 1 | 1           |
 
+> **AXIOMAS DE LAS OPERACIONES BOOLEANAS**
+> 
+> Siendo x, y y z variables lógicas. Se cumple que:
+
+> a) Propiedad conmutativa                        <br>
+> $x + y = y + x$                                 <br>
+> $x \cdot y = y \cdot x$                         <br>
+                                                  <br>
+                                                  <br>
+> b) Propiedad asociativa                         <br>
+>$x + (y + z) = (x + y) + z$                      <br>
+>$x \cdot (y \cdot z) = (x \cdot y) \cdot z$      <br>
+                                                  <br>
+                                                  <br>
+> c) Propiedad distributiva:
+>$x \cdot (y + z) = x \cdot y + x \cdot z$        <br>
+>$x + (y \cdot z) = (x + y) \cdot (x + z)$        <br>
+                                                  <br>
+                                                  <br>
+
+> d) Elementos neutros                            <br>
+> $x + 0  = x$                                    <br>
+> $x \cdot 1 = x$                                 <br>
+                                                  <br>
+                                                  <br>
+> e) Complementación. Para cualquier x se cumple  <br>
+> $x + x' = 1$                                    <br>
+> $x \cdot x' = 0$                                <br>
+                                                  <br>
+                                                  <br>
+A partir de esto axiomas podemos demostrar una serie de leyes o teoremas que son muy útiles a la hora de trabajar con expresiones algebraicas booleanas.
+
+**Teoremas del álgebra de boole**
+
+Siendo x, y y z variables lógicas, se cumplen las siguientes leyes:
+
+1) **Principio de dualidad**
+
+Toda identidad deducida a partir de los axiomas continua siendo cierta si las operaciones $+$ y $\cdot$ y los elementos 0 y 1 se intercambian en toda la expresión.
+
+2) **Ley de idempotencia**
+
+$x + x = x$     <br>
+$x \cdot x = x$ <br>
+
+3) **Ley de absorción**
+
+$x + x \cdot y = x$       <br>
+$x \cdot (x \cdot y) = x$ <br>
+
+4) **Ley de dominancia**
+
+$x + 1 = 1$
+$x \cdot 0 = 0$
+
+5) **Ley de involución**
+
+$(x')' = x$
+
+6) **Leyes de Morgan**
+
+$(x + y)' = x' \cdot y'$ <br> 
+$(x \cdot y)' = x' + y'$ <br>
+
+La inversa de la suma lógica es el producto de las inversas.
+La inversa del producto lógico es la suma de las inversas.
+
+### 1.3 Representación de funciones lógicas
