@@ -67,6 +67,14 @@ Por tanto, tenemos disponibles 4 + 16 dispositivos electrónicos con una o dos e
 Ya estamos viendo que: 
 > hay una correspondencia entre los elementos de un circuito lógico y la lógica intuitiva. Es por esta razón por lo que denominamos a estos circuitos como "circuitos lógicos".
 
+| Lógica       | Circuitos lógicos |
+| :----:       | :---------------: |
+| falso        | 0                 |
+| verdadero    | 1                 |
+| conjunción y | función $g_{1}$   |
+| conjunción o | función $g_{7}$   |
+| partícula no | función $f_{2}$   |
+
 Podemos decir que si tenemos dos frases (las señales de entrada): "Juan estudia química", "María estudia filosofía", podemos construir las siguiente frases:
 
 Juan estudia química **y** María estudia filosofía.
@@ -76,3 +84,10 @@ Juan **no** estudia química.
 La primera sólo es verdadera si ambas frases de entrada son verdaderas.
 La segunda es verdadera sólo si una de las dos es verdadera pero no ambas.
 La tercera es verdadera si su frase de entrada es falsa.
+
+Por eso a la función $g_{1}$ se le denomina AND, a $g_{7}$ OR y a $f_{2}$ NOT.
+
+Entonces, los circuitos lógicos se contruyen a partir de los mimos fundamentos de la lógica y, por tanto, vamos a estudiarlos.
+
+**1.2 Álgebra de Boole**
+
