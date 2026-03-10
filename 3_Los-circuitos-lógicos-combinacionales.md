@@ -219,3 +219,22 @@ Hay varias formas de representar funciones lógicas. Nosotros vamos a usar dos: 
 Con esos elementos podemos expresar cualquier función lógica:
 
 $g_{4}(x,y) = x' \cdot y$
+
+**Expresiones algebraicas equivalentes**: Decimos que dos expresiones algebraicas son equivalentes (expresan la misma función) si de una podemos derivar a la otra usando los axiomas y las leyes del álgebra de Boole.
+
+> Al usar el operador $\cdot$, lo podemos omitir escribiendo el nombre de dos variables seguidas. Entonces se sobreentiende que ente ellas se da el producto lógico
+
+$x_{1}' \cdot x_{0} + x_{2} \cdot x_{1}' \cdot x_{0}' = x_{1}' x_{0} + x_{2}  x_{1}' x_{0}'$
+
+##### Actividades
+
+4. Encontrad una expresión algebraica para las funciones $g_{1}, g_{3}, g_{6}, g_{7}$ y $g_{10}$ de la fig. 2
+
+a)  
+$g_{1}(x,y) = 0$ si $(x=0, y=0)$, <br>
+$g_{1}(x,y) = 0$ si $(x=0, y=1)$, <br>
+$g_{1}(x,y) = 0$ si $(x=1, y=0)$, <br>
+$g_{1}(x,y) = 1$ si $(x=1, y=1)$, <br>
+
+Una expresión algebraica equivalente es: $g_{1}(x,y) = xy$ <br> 
+
