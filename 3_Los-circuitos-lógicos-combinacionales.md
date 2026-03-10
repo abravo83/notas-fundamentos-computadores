@@ -252,6 +252,12 @@ $g_{6}(x,y) = 1$ si $(x=0, y=1)$, <br>
 $g_{6}(x,y) = 1$ si $(x=1, y=0)$, <br>
 $g_{6}(x,y) = 0$ si $(x=1, y=1)$, <br>
 
-Una expresión algebraica equivalente sería: $(x + y) \cdot (xy + x'y')' = x$ <br>
+Una expresión algebraica equivalente sería: $(x' + y) + (x + y')'$ <br>
 
+d)
+$g_{10}(x,y) = 1$ si $(x=0, y=0)$, <br>
+$g_{10}(x,y) = 0$ si $(x=0, y=1)$, <br>
+$g_{10}(x,y) = 1$ si $(x=1, y=0)$, <br>
+$g_{10}(x,y) = 0$ si $(x=1, y=1)$, <br>
 
+Una expresión algebraica equivalente sería: $(x' + y') + (x + y') = y'$ <br>
