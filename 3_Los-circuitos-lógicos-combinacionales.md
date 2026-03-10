@@ -279,3 +279,18 @@ Si tenemos ahora en cuenta $xz’ + x$, por absorción $xz’ + x = x$
 
 Quedando la expresión finalmente como:
 $f = yz + x$.
+
+6. Sea una función de tres variables x, y y z. Encontrad una expresión algebraica de la misma suponiendo que la función debe valer 1 cuando se cumpla alguna de las siguientes condiciones:
+
++ x = 1 o y = 0,
++ x = 0 y z = 1,
++ las tres variables valen 1.
+
+Para la primera condición: $(x + y')$             <br>
+Para la segunda condicón: $(x'z)$                 <br>
+Para la tercera condición: $(xyz)$                 <br>
+
+Combinando las tres: $(x + y') + (x'z) + (xyz)$   <br>
+
+
+
