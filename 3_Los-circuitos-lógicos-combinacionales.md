@@ -193,14 +193,14 @@ La inversa del producto lógico es la suma de las inversas.
 1. Evaluad el valor de la expresión $x + y \cdot (z + x')$ para: <br>
   
   a) $[x y z] = [0 1 0]$, <br>
-  Resolvemos primero $(z + x') = (0 + 1) = 1$             <br>
-  Luego resolvemos $y \cdot 1 = 1 \cdot 1 = 1$            <br>
-  Por último $x + 1 = 1$, luego el resultado final es 1.  <br>
+  Resolvemos primero $(z + x') = (0 + 1) = 1$                     <br>
+  Luego resolvemos $y \cdot 1 = 1 \cdot 1 = 1$                    <br>
+  Por último $x + 1 = 0 + 1 = 0$, luego el resultado final es 0.  <br>
 
   b) $[x y z] = [1 1 0]$, <br>
-  Resolvemos primero $(z + x') = (1 + 1) = 1$             <br>
-  Luego resolvemos $y \cdot 1 = 1 \cdot 1 = 1$            <br>
-  Por último $x + 1 = 1$, luego el resultado final es 1.  <br>
+  Resolvemos primero $(z + x') = (1 + 1) = 1$                     <br>
+  Luego resolvemos $y \cdot 1 = 1 \cdot 1 = 1$                    <br>
+  Por último $x + 1 = 1 + 1 =1$, luego el resultado final es 1.  <br>
 
   c) $[x y z] = [0 1 1]$, <br>
   Resolvemos primero $(z + x') = (0 + 0) = 0$                     <br>
@@ -209,3 +209,13 @@ La inversa del producto lógico es la suma de las inversas.
 
 
 ### 1.3 Representación de funciones lógicas
+
+Hay varias formas de representar funciones lógicas. Nosotros vamos a usar dos: las **expresiones algebraicas** y las **tablas de verdad**.
+
+#### 1.3.1 Expresiones algebraicas
+
+> Se componen de variables lógicas; de elementos 0's y 1's; de operadores producto $(\cdot)$, suma $(+)$ y negación $(')$; y de los símbolos $(,)$ e $(=)$.
+
+Con esos elementos podemos expresar cualquier función lógica:
+
+$g_{4}(x,y) = x' \cdot y$
