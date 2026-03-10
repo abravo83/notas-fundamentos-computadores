@@ -246,3 +246,12 @@ $g_{3}(x,y) = 1$ si $(x=1, y=1)$, <br>
 
 Una expresión algebraica equivalente sería: xy + xy' = x
 
+c)
+$g_{6}(x,y) = 0$ si $(x=0, y=0)$, <br>
+$g_{6}(x,y) = 1$ si $(x=0, y=1)$, <br>
+$g_{6}(x,y) = 1$ si $(x=1, y=0)$, <br>
+$g_{6}(x,y) = 0$ si $(x=1, y=1)$, <br>
+
+Una expresión algebraica equivalente sería: $(x + y) \cdot (xy + x'y')' = x$ <br>
+
+
