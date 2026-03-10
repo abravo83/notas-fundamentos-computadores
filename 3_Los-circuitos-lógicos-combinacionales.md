@@ -188,4 +188,24 @@ $(x \cdot y)' = x' + y'$ <br>
 La inversa de la suma lógica es el producto de las inversas.
 La inversa del producto lógico es la suma de las inversas.
 
+#### Actividades
+
+1. Evaluad el valor de la expresión $x + y \cdot (z + x')$ para: <br>
+  
+  a) $[x y z] = [0 1 0]$, <br>
+  Resolvemos primero $(z + x') = (0 + 1) = 1$             <br>
+  Luego resolvemos $y \cdot 1 = 1 \cdot 1 = 1$            <br>
+  Por último $x + 1 = 1$, luego el resultado final es 1.  <br>
+
+  b) $[x y z] = [1 1 0]$, <br>
+  Resolvemos primero $(z + x') = (1 + 1) = 1$             <br>
+  Luego resolvemos $y \cdot 1 = 1 \cdot 1 = 1$            <br>
+  Por último $x + 1 = 1$, luego el resultado final es 1.  <br>
+
+  c) $[x y z] = [0 1 1]$, <br>
+  Resolvemos primero $(z + x') = (0 + 0) = 0$                     <br>
+  Luego resolvemos $y \cdot 0 = 1 \cdot 0 = 0$                    <br>
+  Por último $x + 0 = 0 + 0 = 0$, luego el resultado final es 0.  <br>
+
+
 ### 1.3 Representación de funciones lógicas
