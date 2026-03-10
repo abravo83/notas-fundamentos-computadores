@@ -261,3 +261,21 @@ $g_{10}(x,y) = 1$ si $(x=1, y=0)$, <br>
 $g_{10}(x,y) = 0$ si $(x=1, y=1)$, <br>
 
 Una expresión algebraica equivalente sería: $(x' + y') + (x + y') = y'$ <br>
+
+5. Encontrad una expresión más sencilla para esta función: $f = wx + xy’ + yz + xz’ + xy$. <br>
+
+Entre los operadores podemos simplificar: xy' + xy = x(y' + y) = x por complementación de y' con y.
+
+Quedando la expresión
+$f = wx + yz + xz’ + x$.
+
+Luego, como también se debe cumplir que $wx + x$, por la ley de absorción:
+$wx + x = x$
+
+Quedando la expresión después de esta simplificación:
+$f = yz + xz’ + x$.
+
+Si tenemos ahora en cuenta $xz’ + x$, por absorción $xz’ + x = x$
+
+Quedando la expresión finalmente como:
+$f = yz + x$.
