@@ -285,12 +285,69 @@ $f = yz + x$.
 + x = 1 o y = 0,
 + x = 0 y z = 1,
 + las tres variables valen 1.
+- Para la primera condición: $(x + y')$
+- Para la segunda condicón: $(x'z)$ 
+- Para la tercera condición: $(xyz)$        
 
-Para la primera condición: $(x + y')$             <br>
-Para la segunda condicón: $(x'z)$                 <br>
-Para la tercera condición: $(xyz)$                 <br>
++ Combinando las tres: $(x + y') + (x'z) + (xyz)$   
 
-Combinando las tres: $(x + y') + (x'z) + (xyz)$   <br>
+7. Se dispone de dos cajas fuertes electrónicas, A y B. Cada una de éstas tiene una señal asociada, $x_{A}$ y $x_{B}$ respectivamente, que vale 1 cuando la caja está abierta y 0 cuando está cerrada. Se tiene también un interruptor general que tiene una señal asociada $i_{g}$, que vale 0 si el interruptor está cerrado y 1 si no lo está. Se quiere construir un sistema de alarma antirrobos, que generará una señal de salida s. Esta señal tiene que valer 1 cuando alguna caja fuerte esté abierta y el interruptor esté cerrado. Escribid la expresión algebraica de la función $s = f(x_{A}, x_{B}, i_{g})$.
 
+- La señal vale 1 cuando $x_{A}$ o $x_{B}$ valen 1 y $i_{g}$ vale 0: s = $(x_{A} + x_{B}) \cdot i_{g}'$      <br>
 
+8. Juan se ha examinado de tres asignaturas. Sus amigos han visto los resultados de los exámenes y le han comentado lo siguiente:– Has aprobado matemáticas o física, dice el primero.– Has suspendido química o matemáticas, dice el segundo.– Has aprobado sólo dos asignaturas, dice el tercero. Entendemos que la “o” de estas frases es exclusiva. Es decir, la primera frase se podría sustituir por “o bien has aprobado matemáticas y has suspendido física, o bien has suspendido matemáticas y has aprobado física”, y de manera similar con la segunda frase. 
 
+- a) Escribid las expresiones algebraicas de las afirmaciones de cada uno de los amigos. 
+- Si matemáticas es m, física es f y química es q:
+- 1er amigo: (mf') + (m'f)
+- 2o amigo: (m'q) + (mq')
+- er amigo: (mfq') + (mf'q) + (m'fq)
+
+- b) Utilizando los axiomas y teoremas del álgebra de Boole, deducid qué asignaturas ha aprobado Juan y cuál ha suspendido.
+
+> Los 5 axiomas son:
+> Propiedad conmutativa: $x + y = y + x$ junto con $xy = yx$
+> Propiedad asociativa: $x + (y + z) = (x + y) + z$ junto con $x(yz) = (xy)z$
+> Propiedad distributiva: $x(y + z) = xy + xz$ junto con $x + (yz) = (x + y)(x + z)$
+> Elemento neutro: $x + 0 = x$ junto con $x \cdot 1 = x$
+> Complementación: $x + x' = 1$ junto con $x \cdot x' = 0$
+
+> Las 6 leyes o teoremas del álgebra de Boole son:
+> 1) Principio o ley de dualidad:
+> Cualquier identidad, deducida a partir de los axiomas, continúa siendo cierta si las operaciones + y $\cdot$ junto con los elementos 1 y 0 se intercambian en toda la expresión.
+
+> 2) Principio o ley de idempotencia:
+> $x + x = x$
+> $x \cdot x = x$
+> "El producto lógico o la suma lógica entre una variable y si misma es igual a esa variable"
+
+> 3) Ley de absorción
+> $x + x \cdot y = x$
+> $x \cdot (x + y) = x$
+
+> 4) Principio o ley de dominancia
+> $x + 1 = 1$
+> $x \cdot 0 = 0$
+
+> 5) Ley de involución
+> $(x')' = x$
+
+> 6) Leyes de Morgan
+> $(x + y)' = x' \cdot y'$
+> $(xy)' = x' + y'$
+
+De lo que dicen los tres amigos sabemos que: Se han aprobado dos, se ha suspendido o química o matemáticas combinando 2 y 3:
+
+(m'q) + (mq') + (mfq') + (mf'q) + (m'fq) = 
+ m'q + mq'(1 + f) + (mf'q) + (m'fq) =
+ m'q + mq' + mf'q + m'fq =
+ m'q +  m'fq + mq' + mf'q =
+ m'q(1 + f) + mq' + mf'q =
+ m'q + mq' + mf'q
+
+ Si ahora invertimos las dos primera partes
+m'q + mq' + mf'q = 
+(m + q')' + (m' + q)' + (m' + f  + q')' =
+(m'q)(m' + q)(m' + f  + q') =
+
+Si se han aprobado dos asignaturas y se ha suspendido matemáticas o química, significa que física se ha aprobado y de la primera deducimos haber suspendido matemáticas, luego también si se han aprobado dos y se ha aprobado matemáticas o física, significa que se ha suspendido matemáticas y aprobado química. 
