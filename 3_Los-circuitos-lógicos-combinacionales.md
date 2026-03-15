@@ -299,9 +299,9 @@ $f = yz + x$.
 
 - a) Escribid las expresiones algebraicas de las afirmaciones de cada uno de los amigos. 
 - Si matemáticas es m, física es f y química es q:
-- 1er amigo: (mf') + (m'f)
-- 2o amigo: (m'q) + (mq')
-- er amigo: (mfq') + (mf'q) + (m'fq)
+- 1er amigo:  (mf' + m'f)
+- 2o amigo:   (qm' + q'm)
+- er amigo:   (mfq' + mf'q + m'fq)
 
 - b) Utilizando los axiomas y teoremas del álgebra de Boole, deducid qué asignaturas ha aprobado Juan y cuál ha suspendido.
 
@@ -338,16 +338,25 @@ $f = yz + x$.
 
 De lo que dicen los tres amigos sabemos que: Se han aprobado dos, se ha suspendido o química o matemáticas combinando 2 y 3:
 
-(m'q) + (mq') + (mfq') + (mf'q) + (m'fq) = 
- m'q + mq'(1 + f) + (mf'q) + (m'fq) =
- m'q + mq' + mf'q + m'fq =
- m'q +  m'fq + mq' + mf'q =
- m'q(1 + f) + mq' + mf'q =
- m'q + mq' + mf'q
+- 1er amigo:  (mf' + m'f)
+- 2o amigo:   (qm' + q'm)
+- er amigo:   (mfq' + mf'q + m'fq)
 
- Si ahora invertimos las dos primera partes
-m'q + mq' + mf'q = 
-(m + q')' + (m' + q)' + (m' + f  + q')' =
-(m'q)(m' + q)(m' + f  + q') =
+Si se han aprobado dos asignaturas y se ha suspendido matemáticas o química, significa que física se ha aprobado y de la primera deducimos haber suspendido matemáticas, luego también si se han aprobado dos y se ha aprobado matemáticas o física, significa que se ha suspendido matemáticas y aprobado química.
 
-Si se han aprobado dos asignaturas y se ha suspendido matemáticas o química, significa que física se ha aprobado y de la primera deducimos haber suspendido matemáticas, luego también si se han aprobado dos y se ha aprobado matemáticas o física, significa que se ha suspendido matemáticas y aprobado química. 
+(qm' + q'm)(mfq' + mf'q + m'fq) =
+(qm')(mfq' + mf'q + m'fq) + q'm(mfq' + mf'q + m'fq) =
+(qm'mfq' + qm'mf'q + qm'm'fq) + (q'mmfq' + q'mmf'q + q'mm'fq) =
+(0 + 0 + qm'f) + (q'mf + 0 + 0) =
+qm'f + q'mf
+
+Si combinamos el resultado con la expresión del primer amigo:
+
+(mf' + m'f)(qm'f + q'mf) =
+mf'(qm'f + q'mf) + m'f(qm'f + q'mf) =
+(mf'qm'f) + (mf'q'mf) + (m'fqm'f) + (m'fq'mf) =
+0         +   0       + (m'fq)    + 0         =
+m'fq
+
+Luego el resultado es que Matemáticas está suspensa y física y química están aprobadas.
+
