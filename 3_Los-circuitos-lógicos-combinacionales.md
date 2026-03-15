@@ -369,3 +369,14 @@ Tenemos a la izquierda una lista con todas las posibles combinaciones de valores
 Cuando tenemos una función con $n$ variables de entrada, dado que una variable sólo puede tomar como valores 0 ó 1, las entradas pueden tomar $2^n$ combinaciones de valores diferentes. Es por eso que una tabla de verdad tendrá $n$ columnas y $n^2$ filas, mientras que a la derecha tendremos una columna con $2^n$ filas.
 
 La convención a la hora de escribir los valores es usar *orden lexicográfico*, comenzando por los valores que son todo ceros e ir creciendo en el orden de los números naturales.
+
+A la hora de colocar las variables en cada columna también tenemos algunas convenciones. La primera es que, cuando usamos una misma letra pero con subíndices para las diferentes variables, coloquemos la de mayor subíndice a la izquierda del todo y las restantes a su derecha:
+
+$x_{2}, x_{1}, x_{0}$ <br>
+
+Decimos entonces que esa variable es la **variable de más peso** mientras que la que se encuentra a la derecha del todo es la **variable de menos peso**.
+
+Podemos usar una única tabla para el resultado de varias funciones lógicas. En ese caso se suele denominar a cada función con f y un subíndice, y el orden de colocación no está establecido. Se puede usar este y otro cualquiera
+
+$f_{0}, f_{1}, f_{2}, ...$ <br>
+
