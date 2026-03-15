@@ -360,3 +360,12 @@ m'fq
 
 Luego el resultado es que Matemáticas está suspensa y física y química están aprobadas.
 
+#### 1.3.2 Tablas de verdad
+
+> Una tabla de verdad expresa una función lógica especificando el valor que tiene la función para cada posible combinación de valores de las variables de entrada.
+
+Tenemos a la izquierda una lista con todas las posibles combinaciones de valores que pueden tomar las variables de entrada y a la derecha el valor de la función para esa función y esos valores de entrada.
+
+Cuando tenemos una función con $n$ variables de entrada, dado que una variable sólo puede tomar como valores 0 ó 1, las entradas pueden tomar $2^n$ combinaciones de valores diferentes. Es por eso que una tabla de verdad tendrá $n$ columnas y $n^2$ filas, mientras que a la derecha tendremos una columna con $2^n$ filas.
+
+La convención a la hora de escribir los valores es usar *orden lexicográfico*, comenzando por los valores que son todo ceros e ir creciendo en el orden de los números naturales.
