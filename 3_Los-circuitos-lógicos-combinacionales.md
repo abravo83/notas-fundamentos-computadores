@@ -380,3 +380,16 @@ Podemos usar una única tabla para el resultado de varias funciones lógicas. En
 
 $f_{0}, f_{1}, f_{2}, ...$ <br>
 
+#### 1.3.3 Correspondencia entre expresiones algebraicas y tablas de verdad
+
+> Es importante saber pasar de una expresión algebraica a su función de tabla de verdad y viceversa.
+
+Para obtener la tabla de verdad a partir de una expresión algebraica tenemos dos formas de intentarlo:
+
+a) Evaluar la expresión para cada combinación de variables y escribir en el lugar correspondiente de la tabla el resultado de la evaluación
+
+b) Analizar visualmente la expresión, deducir para que valores de las variables vale la función 0 ó 1, y rellenar la tabla.
+
+> Pasar una función de expresión a tabla de verdad puede ser muy útil a la hora de deteminar si dos expresiones son equivalentes o no. Cuando de dos expresiones obtenemos que sus tablas de verdad son iguales se puede concluir que las dos expresiones corresponden a la misma función.
+
+Aunque podamos realizar pasos a tablas de verdad a la vista a partir de expresiones, resulma más sencillo si conocemos la expresión en forma de suma de *mintérminos*, que vamos a ver en el siguiente apartado.
